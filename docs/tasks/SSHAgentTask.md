@@ -11,5 +11,7 @@ Accompli will provide features to encrypt credentials in a future release. See i
 |------|------|---------------|-------------|
 | keys | string[] |  | An array with private keys to be added to the SSH agent. |
 
+**Note:** newlines in the private keys should be replaced with ```\n```
+
 # Event flow
 ![Flowchart with highlighted events SSHAgentTask is listening to](../images/event-flows/SSHAgentTask.png)
